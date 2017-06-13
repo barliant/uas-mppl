@@ -12,6 +12,14 @@ public class Person
     private int yearOfBirth;
 
     /**
+     * Default constructor
+     */
+    Person() {
+      this.name = "";
+      this.yearOfBirth = 0;
+    }
+
+    /**
      * Create a person with given name and age.
      */
     Person(String name, int yearOfBirth)
